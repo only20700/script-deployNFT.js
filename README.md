@@ -23,3 +23,11 @@ Run the following command to deploy the NFT contract:
 
 ```bash
 npx hardhat run script/deployNFT.js --network base
+
+
+---
+
+bash
+git add .
+git commit -m "feat: add NFT deployment script for Base network"
+git push origin main
