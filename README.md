@@ -17,3 +17,9 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+## Deploy NFT
+
+Run the following command to deploy the NFT contract:
+
+```bash
+npx hardhat run script/deployNFT.js --network base
