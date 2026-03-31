@@ -17,7 +17,7 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-## Deploy NFT
+## Deploy new NFT
 
 Run the following command to deploy the NFT contract:
 
